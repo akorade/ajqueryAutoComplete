@@ -8,9 +8,9 @@
         factory(jQuery);
     }
 }(function ($) {
+  'use strict';
     var $autoComplete = $.fn.ajAutoComplete = function () {
         //Set Properties
-        debugger;
         var base=this;
         base.e1=document.getElementById(this.attr('id'));
         base.$e1=$(base.e1);
