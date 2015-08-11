@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ajAutoComplete</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+  <h1 id="greeting"></h1>
+
+  <script src="main.js"></script>
+  
+  <script src="autocomplete.js"></script>
+  <script src="keyboard.js"></script>
+  <input placeholder="Language Name" type="text" id="txtLanguageName" 
+  caseinsensitive="true" spaceinsensitive="true" suggestAfterChars="1" datasource="return getDataSource()" />
+      <input id="btnChange"  type="button" value="Change" />
+</body>
+</html>

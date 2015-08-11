@@ -1,0 +1,28 @@
+/* CSS file placeholder. */
+ .li {
+    padding: 10px;
+    background: #FAFAFA;
+    border-bottom: #F0F0F0 1px solid;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.li:hover {
+    background:lightblue;
+    cursor:pointer;
+}
+.lstSuggestions {
+    z-index:2;
+    position: absolute;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: -webkit-match-parent;
+}
